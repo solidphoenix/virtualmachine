@@ -111,7 +111,7 @@ namespace vm
         }
         else
         {
-            assert("Creating empty program");
+            assert("Creating empty program"); //in theory creating a pointer on a null memory you could get rid of this extra else
         }
 
         return binaryProgram;
